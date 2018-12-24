@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:onClick="Top"
+            android:id="@+id/Top"
+            style="@style/text"
+            android:text="Top" />
+
+        <TextView
+            android:onClick="Center"
+            android:id="@+id/Center"
+            style="@style/text"
+            android:text="Center" />
+
+        <TextView
+            android:onClick="Bottom"
+            android:id="@+id/Bottom"
+            style="@style/text"
+            android:text="Bottom" />
+
+        <TextView
+            android:onClick="Flash"
+            android:id="@+id/Flash"
+            style="@style/text"
+            android:text="Flash" />
+
+        <TextView
+            android:onClick="RubberBand"
+            android:id="@+id/RubberBand"
+            style="@style/text"
+            android:text="RubberBand" />
+
+        <TextView
+            android:onClick="ShakeHorizontal"
+            android:id="@+id/ShakeHorizontal"
+            style="@style/text"
+            android:text="ShakeHorizontal" />
+
+        <TextView
+            android:onClick="ShakeVertical"
+            android:id="@+id/ShakeVertical"
+            style="@style/text"
+            android:text="ShakeVertical" />
+
+        <TextView
+            android:onClick="Swing"
+            android:id="@+id/Swing"
+            style="@style/text"
+            android:text="Swing" />
+
+        <TextView
+            android:onClick="Tada"
+            android:id="@+id/Tada"
+            style="@style/text"
+            android:text="Tada" />
+
+        <TextView
+            android:onClick="BounceBottomEnter"
+            android:id="@+id/BounceBottomEnter"
+            style="@style/text"
+            android:text="BounceBottomEnter" />
+
+        <TextView
+            android:onClick="BounceEnter"
+            android:id="@+id/BounceEnter"
+            style="@style/text"
+            android:text="BounceEnter" />
+
+        <TextView
+            android:onClick="BounceLeftEnter"
+            android:id="@+id/BounceLeftEnter"
+            style="@style/text"
+            android:text="BounceLeftEnter" />
+
+        <TextView
+            android:onClick="BounceRightEnter"
+            android:id="@+id/BounceRightEnter"
+            style="@style/text"
+            android:text="BounceRightEnter" />
+
+        <TextView
+            android:onClick="BounceTopEnter"
+            android:id="@+id/BounceTopEnter"
+            style="@style/text"
+            android:text="BounceTopEnter" />
+
+        <TextView
+            android:onClick="FadeEnter"
+            android:id="@+id/FadeEnter"
+            style="@style/text"
+            android:text="FadeEnter" />
+
+        <TextView
+            android:onClick="FadeExit"
+            android:id="@+id/FadeExit"
+            style="@style/text"
+            android:text="FadeExit" />
+
+        <TextView
+            android:onClick="FallEnter"
+            android:id="@+id/FallEnter"
+            style="@style/text"
+            android:text="FallEnter" />
+
+        <TextView
+            android:onClick="FallRotateEnter"
+            android:id="@+id/FallRotateEnter"
+            style="@style/text"
+            android:text="FallRotateEnter" />
+
+        <TextView
+            android:onClick="FlipBottomEnter"
+            android:id="@+id/FlipBottomEnter"
+            style="@style/text"
+            android:text="FlipBottomEnter" />
+
+        <TextView
+            android:onClick="FlipHorizontalEnter"
+            android:id="@+id/FlipHorizontalEnter"
+            style="@style/text"
+            android:text="FlipHorizontalEnter" />
+
+        <TextView
+            android:onClick="FlipHorizontalSwingEnter"
+            android:id="@+id/FlipHorizontalSwingEnter"
+            style="@style/text"
+            android:text="FlipHorizontalSwingEnter" />
+
+        <TextView
+            android:onClick="FlipLeftEnter"
+            android:id="@+id/FlipLeftEnter"
+            style="@style/text"
+            android:text="FlipLeftEnter" />
+
+        <TextView
+            android:onClick="FlipRightEnter"
+            android:id="@+id/FlipRightEnter"
+            style="@style/text"
+            android:text="FlipRightEnter" />
+
+        <TextView
+            android:onClick="FlipTopEnter"
+            android:id="@+id/FlipTopEnter"
+            style="@style/text"
+            android:text="FlipTopEnter" />
+
+        <TextView
+            android:onClick="FlipVerticalEnter"
+            android:id="@+id/FlipVerticalEnter"
+            style="@style/text"
+            android:text="FlipVerticalEnter" />
+
+        <TextView
+            android:onClick="FlipVerticalSwingEnter"
+            android:id="@+id/FlipVerticalSwingEnter"
+            style="@style/text"
+            android:text="FlipVerticalSwingEnter" />
+
+
+        <TextView
+            android:onClick="FlipHorizontalExit"
+            android:id="@+id/FlipHorizontalExit"
+            style="@style/text"
+            android:text="FlipHorizontalExit" />
+
+        <TextView
+            android:onClick="FlipVerticalExit"
+            android:id="@+id/FlipVerticalExit"
+            style="@style/text"
+            android:text="FlipVerticalExit" />
+
+        <TextView
+            android:onClick="SlideBottomEnter"
+            android:id="@+id/SlideBottomEnter"
+            style="@style/text"
+            android:text="SlideBottomEnter" />
+
+        <TextView
+            android:onClick="SlideLeftEnter"
+            android:id="@+id/SlideLeftEnter"
+            style="@style/text"
+            android:text="SlideLeftEnter" />
+
+        <TextView
+            android:onClick="SlideRightEnter"
+            android:id="@+id/SlideRightEnter"
+            style="@style/text"
+            android:text="SlideRightEnter" />
+
+        <TextView
+            android:onClick="SlideTopEnter"
+            android:id="@+id/SlideTopEnter"
+            style="@style/text"
+            android:text="SlideTopEnter" />
+
+        <TextView
+            android:onClick="SlideBottomExit"
+            android:id="@+id/SlideBottomExit"
+            style="@style/text"
+            android:text="SlideBottomExit" />
+
+        <TextView
+            android:onClick="SlideLeftExit"
+            android:id="@+id/SlideLeftExit"
+            style="@style/text"
+            android:text="SlideLeftExit" />
+
+        <TextView
+            android:onClick="SlideRightExit"
+            android:id="@+id/SlideRightExit"
+            style="@style/text"
+            android:text="SlideRightExit" />
+
+        <TextView
+            android:onClick="SlideTopExit"
+            android:id="@+id/SlideTopExit"
+            style="@style/text"
+            android:text="SlideTopExit" />
+
+        <TextView
+            android:onClick="ZoomInBottomEnter"
+            android:id="@+id/ZoomInBottomEnter"
+            style="@style/text"
+            android:text="ZoomInBottomEnter" />
+
+        <TextView
+            android:onClick="ZoomInEnter"
+            android:id="@+id/ZoomInEnter"
+            style="@style/text"
+            android:text="ZoomInEnter" />
+
+        <TextView
+            android:onClick="ZoomInLeftEnter"
+            android:id="@+id/ZoomInLeftEnter"
+            style="@style/text"
+            android:text="ZoomInLeftEnter" />
+
+        <TextView
+            android:onClick="ZoomInRightEnter"
+            android:id="@+id/ZoomInRightEnter"
+            style="@style/text"
+            android:text="ZoomInRightEnter" />
+
+        <TextView
+            android:onClick="ZoomInTopEnter"
+            android:id="@+id/ZoomInTopEnter"
+            style="@style/text"
+            android:text="ZoomInTopEnter" />
+
+        <TextView
+            android:onClick="ZoomInExit"
+            android:id="@+id/ZoomInExit"
+            style="@style/text"
+            android:text="ZoomInExit" />
+
+        <TextView
+            android:onClick="ZoomOutBottomExit"
+            android:id="@+id/ZoomOutBottomExit"
+            style="@style/text"
+            android:text="ZoomOutBottomExit" />
+
+        <TextView
+            android:onClick="ZoomOutExit"
+            android:id="@+id/ZoomOutExit"
+            style="@style/text"
+            android:text="ZoomOutExit" />
+
+        <TextView
+            android:onClick="ZoomOutLeftExit"
+            android:id="@+id/ZoomOutLeftExit"
+            style="@style/text"
+            android:text="ZoomOutLeftExit" />
+
+        <TextView
+            android:onClick="ZoomOutRightExit"
+            android:id="@+id/ZoomOutRightExit"
+            style="@style/text"
+            android:text="ZoomOutRightExit" />
+
+        <TextView
+            android:onClick="Jelly"
+            android:id="@+id/Jelly"
+            style="@style/text"
+            android:text="Jelly" />
+
+        <TextView
+            android:onClick="NewsPaperEnter"
+            android:id="@+id/NewsPaperEnter"
+            style="@style/text"
+            android:text="NewsPaperEnter" />
+    </LinearLayout>
+
+
+</ScrollView>
